@@ -3,6 +3,7 @@ import "./styles.scss"
 
 function App() {
   return (
+    <div>
     <nav className='nav'>
       <ul className='nav__list'>
         <li className='nav__item'>About</li>
@@ -12,6 +13,11 @@ function App() {
         <li className='nav__item'>Service</li>
       </ul >
     </nav >
+    <article>
+      test artykułu
+    </article>
+    </div>
+
   )
 }
 
